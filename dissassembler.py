@@ -1,4 +1,4 @@
-input_file = open("machine_code_prog1","r")
+input_file = open("machine_code_prog1.txt","r")
 output_file = open("prog1_asm.txt","w")
 
 output_file.write("Disassembling Machine Code from Program 1...\n \n")

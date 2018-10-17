@@ -1,7 +1,7 @@
 input_file = open("machine_code_prog1.txt","r")
 output_file = open("prog1_asm.txt","w")
 
-output_file.write("Disassembling Machine Code from Program 1...\n \n")
+output_file.write("Disassembling from Program 1...\n \n")
 
 for line in input_file:
     if (line[1:8] == "1111000"):
